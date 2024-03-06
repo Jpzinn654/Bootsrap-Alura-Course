@@ -34,3 +34,14 @@ input[type="checkbox"] {
 .banner-3 {
   background-image: url(./assets/banner-3.png);
 }
+
+.botao-padrao {
+  background-color: var(--marrom-claro);
+}
+
+.botao-padrao:hover {
+  background-color: var(--marrom-escuro);
+}
+
+
+
