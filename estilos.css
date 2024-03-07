@@ -4,7 +4,6 @@ body {
   --marrom-claro: #B29463;
   font-family: 'Barlow', sans-serif;
   height: 4000px;
-  overflow-x: hidden;
 }
 
 input[type="checkbox"] {
@@ -57,4 +56,19 @@ input[type="checkbox"]:focus {
 
 .input-range::-webkit-slider-thumb {
   background-color: var(--marrom-claro);
+}
+
+footer {
+  background-color: var(--marrom-claro);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link, .bg-light, .card, h5, .accordion, .bi {
+    --bs-nav-link-color: white;
+    --bs-body-color: white;
+    --bs-light-rgb: 60,60,60;
+    --bs-heading-color: white;
+    --bs-body-color: white;
+  }
 }
